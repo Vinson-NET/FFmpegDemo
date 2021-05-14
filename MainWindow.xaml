@@ -1,0 +1,15 @@
+﻿<Window x:Class="ffmpegDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ffmpegDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Start Record" HorizontalAlignment="Left" Margin="138,307,0,0" VerticalAlignment="Top" Width="126" Height="57" Click="StartRecord_Click"/>
+        <Button Content="Stop Record" HorizontalAlignment="Left" Margin="346,304,0,0" VerticalAlignment="Top" Width="117" Height="60" Click="StopRecord_Click"/>
+        <Label x:Name="lbl" Content="" HorizontalAlignment="Left" Margin="138,81,0,0" VerticalAlignment="Top" Height="58" Width="240" FontSize="30"/>
+
+    </Grid>
+</Window>
